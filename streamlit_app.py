@@ -8,6 +8,8 @@ import tempfile
 from tensorflow.keras.applications.efficientnet import preprocess_input
 from tensorflow.keras.models import Model as KModel
 from tensorflow.keras.applications import EfficientNetB0
+from PIL import Image
+import mediapipe as mp
 
 st.set_page_config(
     page_title="Sign Language Classifier",
