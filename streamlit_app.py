@@ -2,7 +2,7 @@
 import streamlit as st
 import tensorflow as tf
 import numpy as np
-import cv2
+# import cv2
 from pathlib import Path
 import tempfile
 from tensorflow.keras.applications.efficientnet import preprocess_input
